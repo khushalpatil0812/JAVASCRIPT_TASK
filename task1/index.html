@@ -1,0 +1,23 @@
+ <!-- create the button and  display the task -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Input</title>
+</head>
+<body>
+
+  <input type="text" id="userInput" placeholder="Type something..." />
+  <button onclick="showText()">Show</button>
+
+  <p id="output"></p>
+
+  <script>
+    function showText() {
+      const text = document.getElementById("userInput").value;
+      document.getElementById("output").innerText = text;
+    }
+  </script>
+
+</body>
+</html>

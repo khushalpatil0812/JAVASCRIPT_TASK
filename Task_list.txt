@@ -1,0 +1,54 @@
+Accenture Development Coding Round Topics &
+Hands-On Task List
+Use this checklist to prepare for HTML, CSS, and JavaScript full-stack style tasks. If you can
+complete these, you are ready for the exam.
+
+
+
+1. Topics to Prepare
+• HTML: Forms, inputs, labels, tables, id vs class, semantic tags, required/disabled/readonly
+attributes
+• CSS: Flexbox (centering & layout), box model, display vs visibility, positioning, hover effects,
+specificity, basic media queries
+• JavaScript Core: let/const, loops, conditions, functions, type conversion, arrays
+• Array Methods: map, filter, reduce
+• DOM Manipulation: getElementById, querySelector, innerText, innerHTML, value, style
+changes, classList
+• Events: click, input, change, submit, addEventListener, preventDefault
+• Timing: setInterval, clearInterval, setTimeout
+• Debugging: handling JS errors, checking ids, avoiding extra prints
+
+
+
+2. Core Practice Tasks (12)
+1 Input box + button → display entered text
+2 Button to show/hide a paragraph
+3 Background/theme color changer
+4 Login/Register form validation with messages
+5 Counter app with + and – (min limit)
+6 To-do list: add and delete items
+7 Live character counter for textarea
+8 Simple calculator (add/subtract/multiply)
+9 Dropdown selection → style/text change
+10 Disable button after click
+11 Add rows dynamically to a table from form input
+12 Search/filter list items based on input
+3. Hard Practice Tasks (10)
+1 To-do list with live total count
+2 Password strength checker (Weak/Medium/Strong) while typing
+3 Theme cycler using CSS classes
+4 Stopwatch / timer with start, stop, reset
+5 Dynamic list where each item has its own delete button
+6 Form submission with preventDefault and data summary display
+7 Search filter app with live results
+8 Dropdown controlling multiple effects (font size, color, background)
+9 Modal popup open/close with overlay
+10 Mini CRUD app: add, edit, delete items in a list
+
+
+4. Final Tips
+• Type all code yourself. Do not copy-paste.
+• Time yourself: aim for 15–25 minutes per task.
+• Keep JS simple and error-free.
+• Always check ids and event handlers.
+• Prefer clean logic over fancy code.
