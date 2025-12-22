@@ -1,0 +1,35 @@
+<!-- back ground color change theame  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <style>
+        body {
+            transition: background-color 0.5s ease;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Change Background Color</h1>
+    <select id="colorSelect">
+        <option value="">Select a color</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightgreen">Light Green</option>
+        <option value="lightpink">Light Pink</option>
+        <option value="lightyellow">Light Yellow</option>
+        <option value="lightgray">Light Gray</option>
+    </select>
+
+    <script>
+        const colorSelect = document.getElementById('colorSelect');
+
+        colorSelect.addEventListener('change', function() {
+            document.body.style.backgroundColor = this.value;
+        });
+    </script>
+</body>
+</html>

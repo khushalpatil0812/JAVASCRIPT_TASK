@@ -33,7 +33,10 @@ changes, classList
 10 Disable button after click
 11 Add rows dynamically to a table from form input
 12 Search/filter list items based on input
+
+
 3. Hard Practice Tasks (10)
+
 1 To-do list with live total count
 2 Password strength checker (Weak/Medium/Strong) while typing
 3 Theme cycler using CSS classes
