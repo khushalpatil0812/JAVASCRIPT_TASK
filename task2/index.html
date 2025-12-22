@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <title>TASK-2</title>
+</head>
+<body>
+
+  <input type="text" id="inputText" />
+  <button onclick="toggleTask()" id="btn">Show task</button>
+  <p id="displayTask"></p>
+
+  <script>
+    let isVisible = false;
+
+    function toggleTask() {
+      const input = document.getElementById("inputText").value;
+      const display = document.getElementById("displayTask");
+      const btn = document.getElementById("btn");
+
+      if (!isVisible) {
+        display.innerText = input;
+        btn.innerText = "Hide task";
+        isVisible = true;
+      } else {
+        display.innerText = "";
+        btn.innerText = "Show task";
+        isVisible = false;
+      }
+    }
+  </script>
+
+</body>
+</html>
